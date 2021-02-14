@@ -1,0 +1,12 @@
+version: "3.9" # optional since v1.27.0
+services:
+  database: # serviço de banco de dados
+    build: docker/db/ # arquivo Dockerfile que será construído
+    ports:
+      - "3306:3306" # porta que será exposta pela aplicação
+    environment:
+      - MYSQL_ROOT_PASSWORD=dev2021 # senha do usuário root
+      - MYSQL_DATABASE=Banco # nome da base de dados
+      - MYSQL_USER=dev2021
+    volumes:
+      - ./.volume/mysql/:/var/lib/mysql # pasta para carregar e salver o conteúdo do BD

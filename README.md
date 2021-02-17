@@ -47,7 +47,7 @@
 
 ## :dart: Sobre
 
-Banco API é um projeto que visa fixar e compartilhar o conteúdo aprendido por mim no processo de desenvolvimento e construção de uma API usando as stacks tecnologicas do Node.js. Todo o processo de desenvolvimento é explicado na série de artigos escrito no [Medium](https://fflucas.medium.com/).
+Banco API é um projeto que visa fixar e compartilhar o conteúdo aprendido por mim no processo de desenvolvimento e construção de uma API usando as stacks tecnologicas do Node.js. Todo o processo de desenvolvimento é explicado na série de artigos escrito no [Medium](https://fflucas.medium.com/desenvolvendo-uma-api-com-node-js-uma-abordagem-detalhada-1f225f65ad9c).
 
 ## :sparkles: Funcionalidades
 
